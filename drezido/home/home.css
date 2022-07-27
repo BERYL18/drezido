@@ -1,0 +1,173 @@
+@media only screen and (min-width:  650px){
+body{
+	margin: 0px;
+	background-color: white;
+	width: auto;
+	animation: 3s slide-right;
+}
+a{
+	color: black;
+}
+*{
+	box-sizing:border-box;
+}
+
+a:hover{
+	color: gold;
+}
+.headig{
+text-align: center;
+font-style: inherit;
+font-size:24px ;
+color: gold;
+animation: slide;
+overflow:initial;
+height: 3rem;
+width: 100%;}
+.headig p{
+	animation: slide;
+}
+@keyframes slide-right{
+from{
+	margin-left: 100%;
+	width: 300%;
+}
+to{
+	margin-left: 0%;
+	width: 100%;
+}
+}
+.new2 button{
+	background-color: gold;
+}
+.new button{
+	background-color: gold;
+}
+.nav{
+	border: groove;
+	height: 6rem;
+}
+.nav button{
+	background-color: goldenrod;
+}	
+.search{
+	width: 50%;
+	height: 3rem;
+	margin-top: 1rem;
+	border-radius: 0, 40px;
+	display: flex run-in;
+}
+.search .searcin{
+	height: 100%;
+	width: 500px;
+	border: groove;
+	outline: none;
+	padding: 1rem;
+	border-radius: 40px;
+}
+.cata button{
+	background-color: goldenrod;
+}
+
+.search i{
+	border: ;
+	border-radius:40px;
+}
+
+.pages{
+border: none;
+text-align: center;
+height: 30px;
+}
+.account{
+	float:right;
+
+}
+.new{
+	border: none;
+	height: 550px;
+
+}
+
+.para{
+	border: groove;
+	height: 50px;
+	width: 100%;
+}
+.para button{
+	float: right;
+	border: groove;
+	width: 1.5rem;
+	}
+
+.cata{
+	border: groove;
+	width: 300px;
+	height: 500px;
+	float: left;
+	border-spacing: 2rem;
+	letter-spacing: 0.2rem;
+	line-height: 2rem;
+}
+.imk{
+	margin-bottom: 2rem;
+	margin-left: 30rem;
+	margin-right: 2rem;
+	}
+.one{
+	margin: 5px;
+	border: 1px none;
+	float: left;
+	width: 290px;
+}
+.one:hover{
+	border: 1px groove gold;
+}
+.one img{
+width: 100%;
+height: 400px;
+}
+.two{
+	text-align: center;
+}
+.new2{
+	border: none;
+	height: 550px;
+}
+.para2{
+	border: groove;
+	height: 50px;
+}
+.para2 button{
+	float: right;
+	border: groove;
+	width: 1.5rem;
+	}
+.one1{
+	margin: 5px;
+	border: 1px none;
+	float: left;
+	width: 290px;
+}
+.one1:hover{
+	border: 1px groove gold;
+}
+.one1 img{
+width: 100%;
+height: 400px;
+}
+.two1{
+	text-align: center;
+}
+
+button{
+	background-color:rgb(0, 170, 0);
+	border-radius: 30px;
+}
+}
+@media only screen and (max-width: 650px){
+button{
+	background-color: gold;
+
+}
+}

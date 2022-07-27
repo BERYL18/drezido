@@ -1,0 +1,117 @@
+*{
+	border: none !important;
+}
+body{
+	background-color: white;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+.footer{
+	color: white;
+	background-color: black;
+	width: 100%;
+	border: none;
+
+}
+.foot{
+	display: flex;
+	border: none;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	color: yellowgreen;
+}
+.pro{
+	border: none;
+}
+div{
+	
+	display: inline-grid;
+	border: groove;
+
+}
+button{
+	background-color: white;
+	border-radius: 5px;
+	border-color: green;
+	width: 8rem;
+	height: 2rem;
+
+}
+.quisomme{
+	display: flex;
+	border: none;
+
+}
+.nosserv{
+	display: grid;
+	border: none;
+	background-color: gray;
+}
+.nospro{
+	display: grid;
+	border: none;
+	grid-column: 3rem;
+}
+
+.navi2{
+	display: flex;
+	position: static;
+}
+.rect{
+	border: none;
+}
+.pic{
+	display: flex;
+	border: none;
+}
+.navi1{
+	display: flex;
+	border: none;
+	width: 100%;
+	flex-direction: column;
+}
+
+.navi1 div{
+	display: flex;
+	width: 25%, 25%,25%,25%; 
+}
+.face{
+	display: flex;
+	width: 20%;
+}
+.quisomme div{
+	border: none;
+	text-align: left;
+}
+.quisomme button{
+	background-color: green;
+	width: 10rem;
+
+}
+.navi2 a{
+	display: flex;
+	float: right;
+}
+.quisomme i{
+	color: green;
+}
+.quisomme a{
+	color: white;
+}
+.SER{
+border: none;
+}
+h2{
+	text-decoration: underline;
+	text-decoration-color: green;
+}
+.nosprod{
+	display: flex;
+	border: none;
+	margin-top: 50px;
+}
